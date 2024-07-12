@@ -9,7 +9,7 @@ Simple string utils for dealing easier with them
 Install using composer:
 
 ‌```
-composer require queracollege/string-utils
+composer require Alireza-bms/string-utils
 ‌```
 
 # Example
@@ -18,7 +18,7 @@ composer require queracollege/string-utils
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-use \QueraCollege\StringUtils\Str;
+use \Alireza-bms\StringUtils\Str;
 
 var_dump(Str::contains('abod', ['ab', 'x']));
 ```
